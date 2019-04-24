@@ -1,6 +1,7 @@
+import json
+
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required, permission_required
-from django.core.serializers import json
 from django.db.models import Count
 from django.forms import formset_factory
 from django.http import HttpResponse, JsonResponse
